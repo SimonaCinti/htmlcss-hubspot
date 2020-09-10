@@ -165,12 +165,11 @@ main .community-wrapper::after{
 
 main .customers{
   background: rgb(80, 27, 203);
-  height: 600px;
 }
 
+/* Main | customer | top bar */
 .customers-top-bar {
-  height: 500px;
-  width: 60%;
+  width: 50%;
   background: red;
   margin: 50px auto;
 }
@@ -195,4 +194,19 @@ main .customers{
   background: rgb(150, 132, 251);
   width: 60%;
   height: 200px;
+}
+
+/* Main | customers | bottom bar */
+
+.customers-bottom-bar{
+  background: red;
+  width: 60%;
+  height: 400px;
+  margin: 50px auto;
+}
+
+.customers-bottom-bar::after {
+  clear: both;
+  display: table;
+  content: '';
 }
