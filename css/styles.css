@@ -160,3 +160,39 @@ main .community-wrapper::after{
   width: 25%;
   border: 1px solid black;
 }
+
+/* Main | customer */
+
+main .customers{
+  background: rgb(80, 27, 203);
+  height: 600px;
+}
+
+.customers-top-bar {
+  height: 500px;
+  width: 60%;
+  background: red;
+  margin: 50px auto;
+}
+
+.customers-top-bar::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+
+.customers-left-bar,
+.customers-right-bar {
+  float: left;
+}
+
+.customers-left-bar{
+  background: pink;
+  width: 40%;
+  height: 200px;
+}
+.customers-right-bar{
+  background: rgb(150, 132, 251);
+  width: 60%;
+  height: 200px;
+}
