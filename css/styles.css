@@ -15,7 +15,6 @@ body {
 header {
   background: rgb(76, 54, 79);
   border: 2px solid black;
-  height: 600px;
 }
 
 /* Header nav style */
@@ -67,4 +66,43 @@ display: table;
   height: 150px;
   width: 50%;
   border: 2px solid black;
+}
+
+.header-break {
+  background:white;
+  color: black;
+  text-align: center;
+  border: 3px solid blue;
+  height: 50px;
+}
+
+/* Main Style */
+
+main {
+    background: rgb(44, 120, 6);
+    border: 2px solid black;
+}
+
+/* Main Content */
+
+.content .feature{
+  height: 50px;
+  width: 200px;
+  background: red;
+  border: 3px solid black;
+  margin: 50px auto;
+}
+
+main .content::after{
+clear: both;
+content: '';
+display: table;
+}
+
+.content .feature.left {
+  float: left;
+  height: 100px;
+  background: red;
+  margin:auto;
+
 }
