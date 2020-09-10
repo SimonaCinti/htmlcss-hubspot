@@ -13,10 +13,12 @@ body {
 /* Header style */
 
 header {
-  background: rgb(195, 23, 217);
+  background: rgb(76, 54, 79);
   border: 2px solid black;
   height: 600px;
 }
+
+/* Header nav style */
 
 nav.top {
   background:rgb(138, 74, 125);
@@ -39,12 +41,30 @@ display: table;
   border: 2px solid black;
 }
 
+/* Header content style */
+
 .header-navigation-bar {
   height: 150px;
   background-color: rgb(93, 78, 93);
 }
 
 .header-content {
-  height: 800px;
+  height: 300px;
   background-color: rgb(195, 23, 217);
+  border: 5px solid black;
+}
+
+.header-content::after{
+clear: both;
+content: '';
+display: table;
+}
+
+.header-content.left,
+.header-content.right {
+  float: left;
+  background: red;
+  height: 150px;
+  width: 50%;
+  border: 2px solid black;
 }
