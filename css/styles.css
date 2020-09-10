@@ -109,7 +109,6 @@ main {
 
 .content-2 .secondary-feature {
   float: left;
-  width: 100px;
   height: 100px;
   background: red;
 }
@@ -139,7 +138,7 @@ background: linear-gradient(290deg, rgba(174,213,218,1) 44%, rgba(0,212,255,1) 8
 }
 
 main .community-wrapper{
-  height: 250px;
+  height: 230px;
   width: 60%;
   background: red;
   margin: 50px auto;
@@ -153,8 +152,11 @@ main .community-wrapper::after{
 
 .community-wrapper .community-data{
   float: left;
-  width: 100px;
   height: 100px;
-  background: red;
-  border: 3px solid black;
+  background: yellow;
+}
+
+.community-data {
+  width: 25%;
+  border: 1px solid black;
 }
