@@ -82,21 +82,23 @@ main {
     background: rgb(44, 120, 6);
 }
 
-/* Main Content */
+/* Main | Content-1 */
 
-.content-1 .feature{
+
+.content-1 .main-feature{
   height: 50px;
   width: 60%;
   background: red;
-  border: 3px solid black;
   margin: 50px auto;
 }
 
+/* Main | Content-2 */
 
 .content-2 {
   background: blue;
   width: 60%;
   margin: auto;
+  margin-bottom: 50px;
 }
 
 .content-2::after{
@@ -105,23 +107,54 @@ main {
   display: table;
 }
 
-.content-2 .second.feature {
+.content-2 .secondary-feature {
   float: left;
   width: 100px;
   height: 100px;
   background: red;
 }
 
-.second.feature.box-1 {
+/* Main | Content-2 | BOX */
+
+.content-2 .box-1 {
   width: calc(33% - 20px);
   margin-right: 20px;
 }
 
-.second.feature.box-2 {
+.content-2 .box-2 {
   width: calc(33% - 20px);
   margin-right: 20px;
 }
 
-.second.feature.box-3 {
+.content-2 .box-3 {
   width: 34%;
+}
+
+/* Main | community */
+
+main .community{
+height: 600px;
+background: rgb(174,213,218);
+background: linear-gradient(290deg, rgba(174,213,218,1) 44%, rgba(0,212,255,1) 88%);
+}
+
+main .community-wrapper{
+  height: 250px;
+  width: 60%;
+  background: red;
+  margin: 50px auto;
+}
+
+main .community-wrapper::after{
+  clear:both;
+  display: table;
+  content: '';
+}
+
+.community-wrapper .community-data{
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: red;
+  border: 3px solid black;
 }
