@@ -1,0 +1,50 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+/* Header style */
+
+header {
+  background: rgb(195, 23, 217);
+  border: 2px solid black;
+  height: 600px;
+}
+
+nav.top {
+  background:rgb(138, 74, 125);
+  height: 100px;
+
+}
+
+nav.top::after{
+clear: both;
+content: '';
+display: table;
+}
+
+.nav-left,
+.nav-right {
+  float: left;
+  background: red;
+  height: 50px;
+  width: 50%;
+  border: 2px solid black;
+}
+
+.header-navigation-bar {
+  height: 150px;
+  background-color: rgb(93, 78, 93);
+}
+
+.header-content {
+  height: 800px;
+  background-color: rgb(195, 23, 217);
+}
