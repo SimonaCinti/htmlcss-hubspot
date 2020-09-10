@@ -80,7 +80,6 @@ display: table;
 
 main {
     background: rgb(44, 120, 6);
-    border: 2px solid black;
 }
 
 /* Main Content */
@@ -108,13 +107,9 @@ main {
 
 .content-2 .second.feature {
   float: left;
+  width: 100px;
   height: 100px;
   background: red;
-  /* Da capire il margine */
-  margin-left: 100px;
-}
+  margin: 0 calc(100%/3 - 100px);
 
-.content-3 {
-  height: 200px;
-  background: rgb(78, 78, 45);
 }
