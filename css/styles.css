@@ -85,24 +85,36 @@ main {
 
 /* Main Content */
 
-.content .feature{
+.content-1 .feature{
   height: 50px;
-  width: 200px;
+  width: 60%;
   background: red;
   border: 3px solid black;
   margin: 50px auto;
 }
 
-main .content::after{
-clear: both;
-content: '';
-display: table;
+
+.content-2 {
+  background: blue;
+  width: 60%;
+  margin: auto;
 }
 
-.content .feature.left {
+.content-2::after{
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.content-2 .second.feature {
   float: left;
   height: 100px;
   background: red;
-  margin:auto;
+  /* Da capire il margine */
+  margin-left: 100px;
+}
 
+.content-3 {
+  height: 200px;
+  background: rgb(78, 78, 45);
 }
