@@ -158,7 +158,7 @@ display: table;
 }
 
 .header-gethubspotfree p{
-  width: 30%;
+  width: 40%;
   height: 50px;
   text-align: center;
   background: #FE775A;
@@ -166,7 +166,7 @@ display: table;
   border-radius: 5%;
 }
 
-.header-gethubspotfree:hover p{
+.header-gethubspotfree p:hover {
   background:white;
   color: #FE775A;
   border: 1px solid #FE775A;
@@ -246,6 +246,13 @@ border-radius: 5%;
 margin: auto;
 }
 
+.main-feature-left p:hover {
+  background:white;
+  color: #FE775A;
+  border: 1px solid #FE775A;
+  border-radius: 5px;
+}
+
 .main-feature-left img {
   width: 200px;
   display: block;
@@ -262,11 +269,6 @@ margin: auto;
 .main-feature-right h4,
 .main-feature-right p {
   margin-bottom: 30px;
-}
-
-.main-feature-right ul li{
-
-
 }
 
 .main-feature-right i {
