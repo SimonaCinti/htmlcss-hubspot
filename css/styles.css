@@ -124,7 +124,7 @@ display: table;
   padding: 0 8px;
 }
 
-/* Heade content style */
+/* Header content style */
 
 .header-content {
   height: 600px;
@@ -134,27 +134,28 @@ display: table;
   border: 1px solid black;
 }
 
-.header-content::after{
-clear: both;
-content: '';
-display: table;
-}
-
-.header-content.left,
-.header-content.right {
-  float: left;
-  background: red;
-  height: 150px;
-  width: 50%;
-  border: 2px solid black;
-}
-
 .header-break {
-  background:white;
-  color: black;
+  background:#AFEBE4;
   text-align: center;
-  border: 3px solid blue;
   height: 50px;
+  border-top: 2px solid #28374E;
+  border-bottom: 3px solid #28374E;
+}
+
+.header-content-wrap{
+  width: 80%;
+  margin: 50px auto;
+
+}
+
+.header-content-text {
+  width: 50%;
+  background-color: red;
+  text-align: left;
+}
+
+.header-content-text p {
+  text-align: justify;
 }
 
 /* Main Style */
