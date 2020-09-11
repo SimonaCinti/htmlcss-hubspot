@@ -131,7 +131,7 @@ display: table;
 /* Header content style */
 
 .header-content {
-  height: 600px;
+  height: 695px;
   margin: auto;
   background: url('../img-hubspot/img/jumbotron.png');
   background-size: cover;
@@ -141,7 +141,6 @@ display: table;
 .header-content-wrap{
   width: 80%;
   margin: 50px auto;
-
 }
 
 .header-content-text {
@@ -188,14 +187,13 @@ display: table;
   height: 50px;
   border-top: 2px solid #28374E;
   border-bottom: 3px solid #28374E;
-  /* margin-bottom: 50px; */
 }
 
 
 /* Main Style */
 
-main img {
-  width:20%;
+main > img {
+  width:30%;
   display: block;
   margin: 50px auto 30px;
 }
@@ -213,12 +211,54 @@ main > p {
 
 /* Main | Content-1 */
 
-.content-1 .main-feature{
-  height: 50px;
+.main-feature{
   width: 80%;
-  background: red;
   margin: 50px auto;
+  border: 1px solid silver;
+  border-radius: 5%;
+  padding: 30px;
 }
+
+.content-1 .main-feature::after{
+clear: both;
+content: '';
+display: table;
+}
+
+.main-feature-left,
+.main-feature-right{
+  float: left;
+}
+/* Main feature left */
+.main-feature-left {
+  width: 35%;
+}
+
+.main-feature-left p {
+width: 100px;
+height: 50px;
+color: white;
+text-align: center;
+vertical-align: middle;
+line-height: 50px;
+background: #FE775A;
+border: 1px solid #FE775A;
+border-radius: 5%;
+margin: auto;
+}
+
+.main-feature-left img {
+  width: 200px;
+  display: block;
+  margin: 50px auto 30px;
+}
+
+
+/* Main feature right */
+.main-feature-right{
+  width: 65%;
+}
+
 
 /* Main | Content-2 */
 
