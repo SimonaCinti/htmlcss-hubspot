@@ -18,7 +18,7 @@ header{
 /* Header nav style */
 
 nav.top {
-  width: 60%;
+  width: 80%;
   margin: auto;
 }
 
@@ -93,14 +93,33 @@ display: table;
 
 /* Header content style */
 
-.header-navigation-bar {
+.header-title {
   height: 150px;
-  background-color: rgb(57, 26, 156);
+  width: 80%;
+  background: white;
+  margin: auto;
+  padding: 15px 0;
 }
+
+.title-list {
+  text-align: right;
+  
+}
+
+.title-list ul {
+  list-style: none;
+}
+
+.title-list li {
+  display: inline-block;
+}
+
+
+
 
 .header-content {
   height: 300px;
-  width:60%;
+  width:80%;
   margin: auto;
   background-color: rgb(195, 23, 217);
   border: 5px solid black;
