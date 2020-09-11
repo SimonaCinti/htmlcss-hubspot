@@ -66,29 +66,29 @@ display: table;
   margin-left: 5px;
   background: white;
   padding: 10px;
-  color: orange;
-  border: 2px solid orange;
+  color: #FE775A;
+  border: 2px solid #FE775A;
   border-radius: 5%;
 }
 
 .nav-right .sign-up {
   display: inline-block;
   margin-left: 5px;
-  background: orange;
+  background: #FE775A;
   padding: 10px;
   color: white;
-  border: 2px solid orange;
+  border: 2px solid #FE775A;
   border-radius: 5%;
 }
 
 .nav-right .login:hover{
-  background: orange;
+  background: #FE775A;
   color:white;
 }
 
-.nav-right .sign-up:hover{
-  background: white;
-  color:orange;
+.nav-right .sign-up:hover {
+  background: #FED1C8;
+  color: black;
 }
 
 /* Header title and menu */
@@ -150,12 +150,39 @@ display: table;
 
 .header-content-text {
   width: 50%;
-  background-color: red;
   text-align: left;
 }
 
-.header-content-text p {
+.header-content-text h1{
+  font-size: 52px;
+}
+
+.header-content-text .description{
   text-align: justify;
+  margin: 25px 0;
+  line-height: 1.6;
+}
+
+.header-gethubspotfree{
+  width: 30%;
+  height: 50px;
+  text-align: center;
+  background: #FE775A;
+  border-radius: 5%;
+}
+
+.header-gethubspotfree:hover p{
+  background:white;
+  color: #FE775A;
+  border: 1px solid #FE775A;
+  border-radius: 5px;
+}
+
+.header-gethubspotfree p {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
 }
 
 /* Main Style */
