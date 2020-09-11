@@ -163,11 +163,12 @@ display: table;
   line-height: 1.6;
 }
 
-.header-gethubspotfree{
+.header-gethubspotfree p{
   width: 30%;
   height: 50px;
   text-align: center;
   background: #FE775A;
+  border: 1px solid #FE775A;
   border-radius: 5%;
 }
 
