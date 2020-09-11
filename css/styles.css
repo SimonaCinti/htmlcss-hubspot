@@ -228,6 +228,7 @@ display: table;
 .main-feature-left,
 .main-feature-right{
   float: left;
+  background: green;
 }
 /* Main feature left */
 .main-feature-left {
@@ -250,7 +251,7 @@ margin: auto;
 .main-feature-left img {
   width: 200px;
   display: block;
-  margin: 50px auto 30px;
+  margin: auto auto 30px;
 }
 
 
