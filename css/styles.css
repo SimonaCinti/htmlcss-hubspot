@@ -211,3 +211,49 @@ main .customers{
   display: table;
   content: '';
 }
+
+/* Footer */
+footer {
+  background: rgb(44, 120, 6);
+}
+
+/* Footer | language */
+.footer-otherlink{
+  height: 230px;
+  width: 60%;
+  background: red;
+  margin: 50px auto;
+}
+
+/* Footer language */
+
+footer .language {
+  height: 50px;
+  width: 60%;
+  background: blue;
+  margin: 0px auto;
+}
+
+/* Footer credits */
+
+footer .credits {
+  height: 50px;
+  width: 60%;
+  background: pink;
+  margin: 0px auto;
+}
+
+footer .credits::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+
+.credits-left,
+.credits-right {
+  float: left;
+  background: red;
+  height: 50px;
+  width: 50%;
+  border: 2px solid black;
+}
