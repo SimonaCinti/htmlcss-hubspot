@@ -7,7 +7,6 @@ box-sizing: border-box;
 body {
   color: #33475B;
   font-family: sans-serif;
-  font-weight: bold;
 }
 
 /* Header style */
@@ -40,7 +39,7 @@ display: table;
 
 .nav-left p {
   display: inline-block;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .fas.fa-globe-europe{
@@ -49,6 +48,11 @@ display: table;
 
 .fas.fa-angle-down {
   margin-left: 5px;
+}
+
+#nav-break-line {
+  display: inline-block;
+  margin: 0 15px;
 }
 
 /* Header nav top right style */
