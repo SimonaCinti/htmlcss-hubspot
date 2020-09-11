@@ -22,6 +22,8 @@ header {
 nav.top {
   background:rgb(138, 74, 125);
   height: 100px;
+  width: 60%;
+  margin: auto;
 }
 
 nav.top::after{
