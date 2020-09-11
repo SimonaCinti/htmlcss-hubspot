@@ -214,7 +214,7 @@ main > p {
   width: 80%;
   margin: 50px auto;
   border: 1px solid silver;
-  border-radius: 5%;
+  border-radius: 1%;
   padding: 50px 30px;
 }
 
@@ -265,11 +265,19 @@ margin: auto;
   width: 65%;
 }
 
+.midlane {
+  display: inline-block;
+  width: 65%;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+
 .main-feature-right h3,
 .main-feature-right h4,
 .main-feature-right p {
   margin-bottom: 30px;
 }
+
 
 .main-feature-right i {
   color: #FE775A;
@@ -277,8 +285,8 @@ margin: auto;
 
 /* Main | Content-2 */
 
+
 .content-2 {
-  background: blue;
   width: 80%;
   margin: auto;
   margin-bottom: 50px;
@@ -290,10 +298,12 @@ margin: auto;
   display: table;
 }
 
-.content-2 .secondary-feature {
+.secondary-feature {
   float: left;
   height: 100px;
-  background: red;
+  background: white;
+  border: 1px solid silver;
+  border-radius: 2%;
 }
 
 /* Main | Content-2 | BOX */
