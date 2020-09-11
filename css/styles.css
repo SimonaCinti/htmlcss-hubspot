@@ -30,17 +30,40 @@ display: table;
 .nav-left,
 .nav-right {
   float: left;
-  height: 50px;
   width: 50%;
   padding: 5% 0;
 }
 
+/* Header nav top left style */
+
+.nav-left p {
+  display: inline-block;
+  padding-left: 10px;
+  padding: 5px;
+}
+
 .fas.fa-globe-europe{
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .fas.fa-angle-down {
-  margin-left: 10px;
+  margin-left: 5px;
+}
+
+/* Header nav top right style */
+
+.nav-right {
+  text-align: right;
+}
+
+.nav-right .login {
+  display: inline-block;
+  margin-left: 5px;
+  background: white;
+  padding: 5px;
+  color: orange;
+  border: 2px solid orange;
+  border-radius: 5%;
 }
 
 /* Header content style */
