@@ -19,6 +19,10 @@ header{
     background: #F5F8FA;
 }
 
+p{
+  line-height: 1.6;
+}
+
 /* Header nav style */
 
 nav.top {
@@ -155,7 +159,6 @@ display: table;
 .header-content-text .description{
   text-align: justify;
   margin: 25px 0;
-  line-height: 1.6;
 }
 
 .header-gethubspotfree p{
@@ -236,7 +239,7 @@ display: table;
 }
 
 .main-feature-left p {
-width: 100px;
+width: 150px;
 height: 50px;
 color: white;
 text-align: center;
@@ -259,6 +262,13 @@ margin: auto;
 .main-feature-right{
   width: 65%;
 }
+
+.main-feature-right h3,
+.main-feature-right h4,
+.main-feature-right p {
+  margin-bottom: 30px;
+}
+
 
 
 /* Main | Content-2 */
