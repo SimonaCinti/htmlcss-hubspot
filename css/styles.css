@@ -12,11 +12,13 @@ body {
 
 /* Header style */
 
+header{
+    background: #F5F8FA;
+}
 
 /* Header nav style */
 
 nav.top {
-  background: #F4F9FD;
   width: 60%;
   margin: auto;
 }
@@ -31,15 +33,14 @@ display: table;
 .nav-right {
   float: left;
   width: 50%;
-  padding: 5% 0;
+  padding: 15px 0;
 }
 
 /* Header nav top left style */
 
 .nav-left p {
   display: inline-block;
-  padding-left: 10px;
-  padding: 5px;
+  padding: 10px;
 }
 
 .fas.fa-globe-europe{
@@ -60,10 +61,30 @@ display: table;
   display: inline-block;
   margin-left: 5px;
   background: white;
-  padding: 5px;
+  padding: 10px;
   color: orange;
   border: 2px solid orange;
   border-radius: 5%;
+}
+
+.nav-right .sign-up {
+  display: inline-block;
+  margin-left: 5px;
+  background: orange;
+  padding: 10px;
+  color: white;
+  border: 2px solid orange;
+  border-radius: 5%;
+}
+
+.nav-right .login:hover{
+  background: orange;
+  color:white;
+}
+
+.nav-right .sign-up:hover{
+  background: white;
+  color:orange;
 }
 
 /* Header content style */
