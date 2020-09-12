@@ -208,6 +208,12 @@ main > p {
 
 }
 
+.img-feature {
+  width: 150px;
+  display: block;
+  margin: auto auto 30px;
+}
+
 /* Main | Content-1 */
 
 .main-feature{
@@ -253,13 +259,6 @@ margin: auto;
   border-radius: 5px;
 }
 
-.main-feature-left img {
-  width: 200px;
-  display: block;
-  margin: auto auto 30px;
-}
-
-
 /* Main feature right */
 .main-feature-right{
   width: 65%;
@@ -300,11 +299,20 @@ margin: auto;
 
 .secondary-feature {
   float: left;
-  height: 100px;
   background: white;
   border: 1px solid silver;
+  padding: 50px 30px;
   border-radius: 2%;
 }
+
+.secondary-feature h3,
+.secondary-feature p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
 
 /* Main | Content-2 | BOX */
 
