@@ -479,11 +479,9 @@ main .customers{
 }
 .customers-right-bar-2{
   background: rgb(150, 132, 251);
-  width: 60%;
+  width: 60
   height: 200px;
 }
-
-
 
 /* Footer */
 footer {
