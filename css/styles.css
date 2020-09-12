@@ -13,6 +13,10 @@ body {
 a {
   text-decoration: none;
 }
+
+.check {
+  color: #FE775A;
+}
 /* Header style */
 
 header{
@@ -279,9 +283,7 @@ margin: auto;
 }
 
 
-.main-feature-right i {
-  color: #FE775A;
-}
+
 
 /* Main | Content-2 */
 
@@ -312,8 +314,10 @@ margin: auto;
   margin-bottom: 20px;
 }
 
-
-
+.box-bottom ul li {
+  display: block;
+  padding: 0;
+}
 
 /* Main | Content-2 | BOX */
 
