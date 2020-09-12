@@ -151,7 +151,6 @@ display: table;
   text-align: right;
 }
 
-
 /* Header content style */
 
 .header-content {
@@ -212,7 +211,6 @@ display: table;
   border-bottom: 3px solid #28374E;
 }
 
-
 /* Main Style */
 
 main > img {
@@ -259,14 +257,12 @@ display: table;
 .main-feature-right{
   float: left;
 }
-/* Main feature left */
+/* Main | Content 1 |feature left */
 .main-feature-left {
   width: 35%;
 }
 
-
-
-/* Main feature right */
+/* Main | Content 1 |feature right */
 .main-feature-right{
   width: 65%;
 }
@@ -284,11 +280,7 @@ display: table;
   margin-bottom: 30px;
 }
 
-
-
-
 /* Main | Content-2 */
-
 
 .content-2 {
   width: 80%;
@@ -350,7 +342,7 @@ display: table;
   padding: 5px;
 }
 
-/* Main | community */
+/* Main | Community */
 
 main .community{
 height: 600px;
