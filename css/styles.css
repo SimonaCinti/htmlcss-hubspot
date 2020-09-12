@@ -417,17 +417,11 @@ border-right: none;
   height: 40px;
 }
 
-/* Main | customer */
-
-main .customers{
-  background: grey;
-}
-
-/* Main | customer | top bar */
+/* Main  customer | top bar */
 .customers-top-bar {
   width: 80%;
-  background: red;
-  margin: 50px auto;
+  /* background: red; */
+  margin: 0 auto;
 }
 
 .customers-top-bar::after {
@@ -439,18 +433,31 @@ main .customers{
 .customers-left-bar-1,
 .customers-right-bar-1{
   float: left;
+  padding-top: 50px;
+}
+
+/* Main customer | top bar | left */
+.customers-left-bar-1 p,
+.customers-left-bar-1 h2  {
+  padding: 0 90px;
+  text-align: left;
 }
 
 .customers-left-bar-1{
-  background: pink;
   width: 40%;
   height: 200px;
 }
+
+.customers-country {
+  font-weight: bold;
+}
+
+/* Main customer | top bar | right */
 .customers-right-bar-1{
-  background: rgb(150, 132, 251);
   width: 60%;
   height: 200px;
 }
+
 
 /* Main | customers | bottom bar */
 
