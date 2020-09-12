@@ -352,7 +352,6 @@ background: linear-gradient(90deg, rgba(0,169,185,1) 5%, rgba(0,176,177,1) 52%, 
 .community-top {
   width: 80%;
   margin: 50px auto;
-  border-radius: 1%;
   padding: 50px 30px;
   color: white;
   text-align: center;
@@ -374,25 +373,37 @@ main .community-wrapper{
 
 /* Main | Community | data */
 
-.community-data h3{
-  font-size: 50px;
-}
-
-.community-data img {
-  width: 60px;
-}
-
 .community-data{
   float: left;
-  padding: 30px;
   color: white;
   text-align: center;
+  padding: 30px 0;
 }
 
 .community-data {
   width: 25%;
   border: 1px solid white;
 }
+
+.community-data h3,
+.community-data p {
+  margin-top: 10px;
+}
+
+.community-data h3 {
+  font-size: 50px;
+}
+
+.community-data .plus {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.community-data img {
+  width: 150px;
+  height: 40px;
+}
+
 
 /* Main | customer */
 
