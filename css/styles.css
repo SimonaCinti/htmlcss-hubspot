@@ -394,11 +394,8 @@ main .community-wrapper{
 border-right: none;
 }
 
-
-
 .community-data {
   width: 25%;
-  /* border: 1px solid white; */
 }
 
 .community-data h3,
@@ -419,7 +416,6 @@ border-right: none;
   width: 150px;
   height: 40px;
 }
-
 
 /* Main | customer */
 
