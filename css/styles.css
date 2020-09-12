@@ -436,17 +436,17 @@ main .customers{
   content: '';
 }
 
-.customers-left-bar,
-.customers-right-bar {
+.customers-left-bar-1,
+.customers-right-bar-1{
   float: left;
 }
 
-.customers-left-bar{
+.customers-left-bar-1{
   background: pink;
   width: 40%;
   height: 200px;
 }
-.customers-right-bar{
+.customers-right-bar-1{
   background: rgb(150, 132, 251);
   width: 60%;
   height: 200px;
@@ -466,6 +466,24 @@ main .customers{
   display: table;
   content: '';
 }
+
+.customers-left-bar-2,
+.customers-right-bar-2{
+  float: left;
+}
+
+.customers-left-bar-2{
+  background: pink;
+  width: 40%;
+  height: 200px;
+}
+.customers-right-bar-2{
+  background: rgb(150, 132, 251);
+  width: 60%;
+  height: 200px;
+}
+
+
 
 /* Footer */
 footer {
