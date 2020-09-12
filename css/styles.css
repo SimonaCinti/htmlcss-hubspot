@@ -389,8 +389,8 @@ main .community-wrapper{
   border-right: 1px solid white;
 }
 
-.row-1 .community-data:nth-child(1n+4),
-.row-2 .community-data:nth-child(1n+4) {
+.row-1 .community-data:last-child,
+.row-2 .community-data:last-child {
 border-right: none;
 }
 
