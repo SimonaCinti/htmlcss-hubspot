@@ -210,6 +210,7 @@ main > p {
 
 .img-feature {
   width: 150px;
+  height: 150px;
   display: block;
   margin: auto auto 30px;
 }
@@ -328,6 +329,15 @@ margin: auto;
 
 .content-2 .box-3 {
   width: 34%;
+}
+
+.box-top {
+    height: 400px;
+    margin: 10px;
+}
+
+.box-3 .box-top {
+  padding: 5px;
 }
 
 /* Main | community */
