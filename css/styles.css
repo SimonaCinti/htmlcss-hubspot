@@ -425,7 +425,7 @@ main .customers{
 
 /* Main | customer | top bar */
 .customers-top-bar {
-  width: 50%;
+  width: 80%;
   background: red;
   margin: 50px auto;
 }
@@ -456,7 +456,7 @@ main .customers{
 
 .customers-bottom-bar{
   background: red;
-  width: 60%;
+  width: 80%;
   height: 250px;
   margin: 50px auto;
 }
