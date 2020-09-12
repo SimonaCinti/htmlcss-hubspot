@@ -239,7 +239,7 @@ main > p {
 
 /* Main | Content-1 */
 
-.main-feature{
+.main-feature {
   width: 80%;
   margin: 50px auto;
   border: 1px solid silver;
@@ -346,9 +346,19 @@ display: table;
 
 main .community{
 height: 600px;
-background: rgb(174,213,218);
-background: linear-gradient(290deg, rgba(174,213,218,1) 44%, rgba(0,212,255,1) 88%);
+background: rgb(0,169,185);
+background: linear-gradient(90deg, rgba(0,169,185,1) 5%, rgba(0,176,177,1) 52%, rgba(0,186,127,1) 83%);
 }
+
+.community-top {
+  width: 80%;
+  margin: 50px auto;
+  border-radius: 1%;
+  padding: 50px 30px;
+  color: white;
+  text-align: center;
+}
+
 
 main .community-wrapper{
   height: 230px;
