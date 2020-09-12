@@ -17,6 +17,26 @@ a {
 .check {
   color: #FE775A;
 }
+
+.button {
+width: 150px;
+height: 50px;
+color: white;
+text-align: center;
+vertical-align: middle;
+line-height: 50px;
+background: #FE775A;
+border: 1px solid #FE775A;
+border-radius: 5%;
+margin: auto;
+}
+
+.button:hover {
+  background:white;
+  color: #FE775A;
+  border: 1px solid #FE775A;
+  border-radius: 5px;
+}
 /* Header style */
 
 header{
@@ -244,25 +264,7 @@ display: table;
   width: 35%;
 }
 
-.main-feature-left p {
-width: 150px;
-height: 50px;
-color: white;
-text-align: center;
-vertical-align: middle;
-line-height: 50px;
-background: #FE775A;
-border: 1px solid #FE775A;
-border-radius: 5%;
-margin: auto;
-}
 
-.main-feature-left p:hover {
-  background:white;
-  color: #FE775A;
-  border: 1px solid #FE775A;
-  border-radius: 5px;
-}
 
 /* Main feature right */
 .main-feature-right{
@@ -317,6 +319,10 @@ margin: auto;
 .box-bottom ul li {
   display: block;
   padding: 0;
+}
+
+.box-bottom .button {
+  margin-top: 50px;
 }
 
 /* Main | Content-2 | BOX */
