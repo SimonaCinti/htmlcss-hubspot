@@ -380,9 +380,25 @@ main .community-wrapper{
   padding: 30px 0;
 }
 
+.row-1 .community-data {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.row-2 .community-data{
+  border-right: 1px solid white;
+}
+
+.row-1 .community-data:nth-child(1n+4),
+.row-2 .community-data:nth-child(1n+4) {
+border-right: none;
+}
+
+
+
 .community-data {
   width: 25%;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 .community-data h3,
