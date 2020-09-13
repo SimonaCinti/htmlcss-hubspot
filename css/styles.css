@@ -8,6 +8,7 @@ body {
   color: #33475B;
   font-family: sans-serif;
   font-size: 17px;
+  cursor: default;
 }
 
 a {
