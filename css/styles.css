@@ -524,7 +524,6 @@ border-right: none;
 
 /* Main customers | bottom bar | right bar */
 .customers-right-bar-2{
-  background: rgb(150, 132, 251);
   width: 60%;
   background: url('../img-hubspot/img/woman.webp');
   background-position: top right;
@@ -563,6 +562,24 @@ footer {
 .footer-otherlink ul li {
   display: block;
   padding: 10px;
+}
+
+li .contact-button {
+  width: auto;
+  padding: 0 15px;
+  height: 40px;
+  display: inline-block;
+  background: #ffffff;
+  color: #33475b;
+  border-radius: 3%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+li .contact-button:hover {
+  background: grey;
+  color: #33475b;
 }
 
 /* Footer language */
