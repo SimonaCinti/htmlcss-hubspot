@@ -585,18 +585,26 @@ li .contact-button:hover {
 /* Footer language */
 
 footer .language {
-  height: 50px;
-  width: 60%;
-  background: blue;
+  width: 80%;
   color:white;
   margin: 0px auto;
+  border-bottom: 1px solid white;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.language ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Footer credits */
 
 footer .credits {
   height: 50px;
-  width: 60%;
+  width: 80%;
   background: pink;
   margin: 0px auto;
 }
