@@ -9,6 +9,7 @@ body {
   font-family: sans-serif;
   font-size: 17px;
   cursor: default;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 a {
@@ -40,6 +41,10 @@ margin: auto;
   border-radius: 5px;
 }
 /* Header style */
+
+h1 {
+  font-weight: bolder;  
+}
 
 header {
     background: #F5F8FA;
@@ -222,7 +227,7 @@ display: table;
   position: relative;
 }
 
-.header-break { /* l'header breaker non coincide con l'immagine, rimane spazio bianco. Da lavorare */
+.header-break {
   background:#AFEBE4;
   text-align: center;
   width: 100%;
