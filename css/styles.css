@@ -603,10 +603,9 @@ footer .language {
 /* Footer credits */
 
 footer .credits {
-  height: 50px;
   width: 80%;
-  background: pink;
-  margin: 0px auto;
+  margin: 20px auto 0;
+  color: white;
 }
 
 footer .credits::after {
@@ -618,8 +617,18 @@ footer .credits::after {
 .credits-left,
 .credits-right {
   float: left;
-  background: red;
-  height: 50px;
   width: 50%;
-  border: 2px solid black;
+}
+
+.credits-left img{
+  height: 50px;
+}
+
+.credits-left p {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.credits-right {
+  text-align: right;
 }
