@@ -499,20 +499,45 @@ border-right: none;
 .customers-left-bar-2,
 .customers-right-bar-2{
   float: left;
+  height: 430px;
 }
 
 /* Main customers | bottom bar | left bar */
 
 .customers-left-bar-2{
-  background: pink;
   width: 40%;
-  height: 200px;
 }
+
+.customers-left-bar-2 h2,
+.customers-left-bar-2 p{
+  text-align: left;
+  margin: 40px 0;
+}
+
+.customers-left-bar-2 .button{
+  margin: 0;
+}
+
+.customers-left-bar-2 .freetools-text{
+  font-size: 12px;
+}
+
+/* Main customers | bottom bar | right bar */
 .customers-right-bar-2{
   background: rgb(150, 132, 251);
   width: 60%;
-  height: 200px;
+  background: url('../img-hubspot/img/woman.webp');
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 50%;
 }
+
+
+
+/* .customers-right-bar-2 img {
+  width: 50%;
+  height: 430px;
+} */
 
 /* Footer */
 footer {
