@@ -110,7 +110,7 @@ display: table;
 
 .nav-right .login {
   display: inline-block;
-  margin-left: 5px;
+  margin: 0 25px;
   background: white;
   padding: 10px;
   color: #FE775A;
@@ -118,14 +118,8 @@ display: table;
   border-radius: 5%;
 }
 
-.nav-right .sign-up {
-  display: inline-block;
-  margin-left: 5px;
-  background: #FE775A;
-  padding: 10px;
-  color: white;
-  border: 2px solid #FE775A;
-  border-radius: 5%;
+.fa-search {
+  color: #02a4bd;
 }
 
 .nav-right .login:hover {
@@ -136,6 +130,16 @@ display: table;
 .nav-right .sign-up:hover {
   background: #FED1C8;
   color: black;
+}
+
+.nav-right .sign-up {
+  display: inline-block;
+  margin-left: 5px;
+  background: #FE775A;
+  padding: 10px;
+  color: white;
+  border: 2px solid #FE775A;
+  border-radius: 5%;
 }
 
 /* Header title and menu */
