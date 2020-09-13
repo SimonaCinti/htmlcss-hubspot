@@ -444,7 +444,7 @@ border-right: none;
 }
 
 .customers-left-bar-1{
-  width: 30%;
+  width: 40%;
 }
 
 .customers-country {
@@ -453,10 +453,29 @@ border-right: none;
 
 /* Main customer | top bar | right */
 .customers-right-bar-1{
-  width: 70%;
-  height: 200px;
+  width: 60%;
 }
 
+.customers-right-image::after{
+  clear: both;
+  display: table;
+  content: '';
+}
+
+.customers-right-image img {
+  float:left;
+  width: 25%;
+  padding: 0 20px;
+  margin: 15px auto;
+}
+
+.customers-right-image img[alt*="classpass"]{
+  height: 40px;
+}
+
+.customers-right-image img[alt*="Wistia"]{
+  height: 30px;
+}
 
 /* Main | customers | bottom bar */
 
