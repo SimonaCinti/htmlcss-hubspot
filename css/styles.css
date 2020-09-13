@@ -439,7 +439,7 @@ border-right: none;
 /* Main customer | top bar | left */
 .customers-left-bar-1 p,
 .customers-left-bar-1 h2  {
-  padding: 0 50px;
+  padding: 0px 20%;
   text-align: left;
 }
 
@@ -505,7 +505,7 @@ border-right: none;
 }
 .customers-right-bar-2{
   background: rgb(150, 132, 251);
-  width: 60
+  width: 60%;
   height: 200px;
 }
 
