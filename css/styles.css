@@ -285,6 +285,10 @@ display: table;
   margin-bottom: 30px;
 }
 
+.main-feature-right h4 {
+  display: inline-block;
+}
+
 /* Main | Content-2 */
 
 .content-2 {
