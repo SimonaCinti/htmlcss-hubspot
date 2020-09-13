@@ -13,7 +13,7 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: inherit; /*se lo tolgo mi cambia i colori dei link*/
 }
 
 .check {
@@ -538,6 +538,14 @@ border-right: none;
 /* Footer */
 footer {
   background: #33475b;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.contact-button a:hover {
+  text-decoration: none;
 }
 
 /* Footer | Other link */
