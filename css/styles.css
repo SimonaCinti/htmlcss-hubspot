@@ -294,6 +294,14 @@ display: table;
   width: 65%;
 }
 
+.main-feature-right ul li {
+  padding-left: 0;
+}
+
+.main-feature-right ul li i {
+  padding-left: 0;
+}
+
 .midlane {
   display: inline-block;
   width: 65%;
