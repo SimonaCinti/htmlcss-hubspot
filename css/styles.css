@@ -95,6 +95,7 @@ display: table;
 
 .fas.fa-angle-down {
   margin-left: 5px;
+  cursor: pointer;
 }
 
 #nav-break-line {
@@ -120,6 +121,7 @@ display: table;
 
 .fa-search {
   color: #02a4bd;
+  cursor: pointer;
 }
 
 .nav-right .login:hover {
