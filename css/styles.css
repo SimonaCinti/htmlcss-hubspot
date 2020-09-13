@@ -95,6 +95,11 @@ display: table;
   margin-left: 5px;
 }
 
+#nav-break-line {
+  display: inline-block;
+  margin: 0 10px;
+}
+
 /* Header nav top right style */
 
 .nav-right {
@@ -478,12 +483,10 @@ border-right: none;
   padding-top: 5px;
 }
 
-/* Main | customers | bottom bar */
+/* Main customers | bottom bar */
 
 .customers-bottom-bar{
-  background: red;
   width: 80%;
-  height: 250px;
   margin: 50px auto;
 }
 
@@ -497,6 +500,8 @@ border-right: none;
 .customers-right-bar-2{
   float: left;
 }
+
+/* Main customers | bottom bar | left bar */
 
 .customers-left-bar-2{
   background: pink;
