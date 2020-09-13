@@ -43,7 +43,7 @@ margin: auto;
 /* Header style */
 
 h1 {
-  font-weight: bolder;  
+  font-weight: bolder;
 }
 
 header {
@@ -596,6 +596,7 @@ footer a:hover {
   padding: 10px;
 }
 
+
 li .contact-button {
   width: auto;
   padding: 0 15px;
@@ -613,6 +614,7 @@ li .contact-button:hover {
   background: #FE775A;
   color: white;
 }
+
 
 /* Footer language */
 
