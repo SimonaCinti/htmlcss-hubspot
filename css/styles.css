@@ -537,13 +537,32 @@ footer {
   background: #33475b;
 }
 
-/* Footer | language */
+/* Footer | Other link */
+
 .footer-otherlink{
-  height: 230px;
   width: 80%;
   margin: 50px auto;
-  /* border: 3px solid white; */
   color:white;
+}
+
+.footer-otherlink{
+  clear: both;
+  display: table;
+  content: '';
+}
+.footer-otherlink ul {
+  float: left;
+  width:25%;
+}
+
+.footer-otherlink ul .list-title{
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-otherlink ul li {
+  display: block;
+  padding: 10px;
 }
 
 /* Footer language */
