@@ -175,8 +175,8 @@ display: table;
   height: 695px;
   margin: auto;
   background: url('../img-hubspot/img/jumbotron.png');
-  background-size: 100% 695px;
-  background-position: top right;
+  background-position: right bottom;
+  background-size: cover;
   background-repeat: no-repeat;
   border: 1px solid black;
 }
