@@ -591,8 +591,7 @@ footer {
   background: #33475b;
 }
 
-footer a:hover,
-footer:not(.contact.button):hover {
+footer a:not(.contact-button):hover {
   text-decoration: underline;
 }
 
