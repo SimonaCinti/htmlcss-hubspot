@@ -14,7 +14,7 @@ body {
 a {
   text-decoration: none;
   display: inline-block;
-  color: inherit; /*se lo tolgo mi cambia i colori dei link*/
+  color: inherit; 
 }
 
 .check {
@@ -593,10 +593,6 @@ footer {
 
 footer a:not(.contact-button):hover {
   text-decoration: underline;
-}
-
-.contact-button a:hover {
-  text-decoration: none;
 }
 
 /* Footer | Other link */
