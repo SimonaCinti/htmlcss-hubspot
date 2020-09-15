@@ -59,6 +59,10 @@ p {
   line-height: 1.6;
 }
 
+p.small-text {
+  font-size: 12px;
+}
+
 ul {
   list-style: none;
 }
@@ -529,9 +533,7 @@ border-right: none;
   margin: 0;
 }
 
-.customers-left-bar-2 .freetools-text {
-  font-size: 12px;
-}
+
 
 /* Main customers | bottom bar | right bar */
 .customers-right-bar-2 {
