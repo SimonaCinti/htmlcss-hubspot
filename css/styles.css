@@ -401,15 +401,8 @@ display: table;
 }
 
 .box-top {
-    height: 400px;
     margin: 10px;
 }
-
-.box-3 .box-top {
-  padding: 3px;
-}
-
-
 
 /* Main | Community */
 
@@ -598,7 +591,8 @@ footer {
   background: #33475b;
 }
 
-footer a:hover {
+footer a:hover,
+footer:not(.contact.button):hover {
   text-decoration: underline;
 }
 
