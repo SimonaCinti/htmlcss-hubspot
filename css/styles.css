@@ -13,6 +13,7 @@ body {
 
 a {
   text-decoration: none;
+  display: inline-block;
   color: inherit; /*se lo tolgo mi cambia i colori dei link*/
 }
 
@@ -32,6 +33,8 @@ border: 1px solid #FE775A;
 border-radius: 5%;
 margin: auto;
 }
+
+
 
 .button:hover {
   background:white;
@@ -287,7 +290,9 @@ display: table;
 /* Main | Content 1 |feature left */
 .main-feature-left {
   width: 35%;
+  padding: 0 10%;
 }
+
 
 /* Main | Content 1 |feature right */
 .main-feature-right  {
@@ -358,9 +363,21 @@ display: table;
 
 /* Main | Content-2 | BOX */
 
+.content-2 .box-1,
+.content-2 .box-2,
+.content-2 .box-3 {
+  height: 700px;
+}
+
+
 .content-2 .box-1 {
   width: calc(33% - 20px);
   margin-right: 20px;
+}
+
+.content-2 .box-1 .button {
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 .content-2 .box-2 {
@@ -368,8 +385,19 @@ display: table;
   margin-right: 20px;
 }
 
+.content-2 .box-2 .button {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
 .content-2 .box-3 {
   width: 34%;
+}
+
+.content-2 .box-3 .button {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: -20px;
 }
 
 .box-top {
@@ -378,8 +406,10 @@ display: table;
 }
 
 .box-3 .box-top {
-  padding: 5px;
+  padding: 3px;
 }
+
+
 
 /* Main | Community */
 
