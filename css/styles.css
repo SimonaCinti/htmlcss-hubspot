@@ -226,7 +226,8 @@ display: table;
   position: relative;
 }
 
-.header-break {
+.header-content::after {
+  content: '';
   background:#AFEBE4;
   text-align: center;
   width: 100%;
