@@ -1,7 +1,7 @@
 *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -18,9 +18,9 @@ a {
 }
 
 .clearfix::after {
-clear: both;
-content: '';
-display: table;
+  clear: both;
+  content: '';
+  display: table;
 }
 
 .check {
@@ -28,16 +28,16 @@ display: table;
 }
 
 .button {
-width: 150px;
-height: 50px;
-color: white;
-text-align: center;
-vertical-align: middle;
-line-height: 50px;
-background: #FE775A;
-border: 1px solid #FE775A;
-border-radius: 5%;
-margin: auto;
+  width: 150px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  background: #FE775A;
+  border: 1px solid #FE775A;
+  border-radius: 5%;
+  margin: auto;
 }
 
 .button:hover {
